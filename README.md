@@ -20,7 +20,7 @@ snap install nextcloud
 ```
 
 add domain
-```
+
 ```
 nano /var/snap/nextcloud/current/nextcloud/config/config.php
 ```
