@@ -2,10 +2,10 @@
 # Use ufw to manage firewall rules
 
 ```
-sudo ufw allow 80/tcp
-```
-```
-sudo ufw allow 443/tcp
+sudo ufw enable
+sudo ufw allow 22/tcp # Open SSH port for secure remote access
+sudo ufw allow 80/tcp # Open HTTP port for web traffic
+sudo ufw allow 443/tcp # Open HTTPS port for secure web traffic
 ```
 ```
 sudo ufw reload
