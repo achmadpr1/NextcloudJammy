@@ -25,7 +25,7 @@ add domain
 nano /var/snap/nextcloud/current/nextcloud/config/config.php
 ```
 
-# 2. NextcloudJammy
+# 2. NextcloudJammy Apache2
 This is autoinstall Nextcloud For ubuntu version 22.04 (Jammy)
 
 # Usage
