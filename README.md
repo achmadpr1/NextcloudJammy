@@ -22,7 +22,11 @@ Enter Database root password: Re-enter Database root password: Enter Nextcloud d
 Wait for installtion to complete!
 
 # How to Config UFW Firewall VPS Neo Lite Pro
-# Use ufw to manage firewall rules, add/delete/restore/reset ufw rules.
+# Use ufw to manage firewall rules
+
+Nextcloud requires ports 80 and 443 to work outside the local network. Both cannot use the same port. 
+Ports 80, 8080, and 8443 can also be used to access the Nextcloud interface, but their security levels vary. 
+To access Nextcloud from outside the network, you need to allow ports 80 and 443 and forward them to the device's IP address
 ```
 sudo ufw allow 80
 ```
