@@ -12,7 +12,7 @@ git clone https://github.com/achmadpr1/NextcloudJammy/blob/main/nextcloud-jammy.
 chmod +x nextcloud-jammy.sh
 ```
 ```
-sudo ./nextcloud-install.sh
+sudo ./nextcloud-jammy.sh
 ```
 
 Follow the prompts to enter information about your server as shown below:
