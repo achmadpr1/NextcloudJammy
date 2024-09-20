@@ -21,4 +21,17 @@ Enter Database root password: Re-enter Database root password: Enter Nextcloud d
 
 Wait for installtion to complete!
 
+How to Config UFW Firewall VPS Neo Lite Pro
+Use ufw to manage firewall rules, add/delete/restore/reset ufw rules.
+```
+sudo ufw allow 80
+```
+sudo ufw allow 443
+```
+sudo ufw enable
+```
+sudo ufw status
+```
+
+
 Enjoy!
