@@ -6,7 +6,7 @@ This is autoinstall Nextcloud For ubuntu version 22.04 (Jammy)
 sudo su
 ```
 ```
-git clone https://github.com/achmadpr1/NextcloudJammy/main/nextcloud-jammy.sh
+wget https://raw.githubusercontent.com/achmadpr1/NextcloudJammy/main/nextcloud-jammy.sh
 ```
 ```
 chmod +x nextcloud-jammy.sh
