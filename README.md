@@ -42,7 +42,11 @@ Enjoy!
 
 ```
 sudo ufw enable
+```
+```
 sudo ufw allow 80/tcp
+```
+```
 sudo ufw allow 443/tcp
 ```
 ```
