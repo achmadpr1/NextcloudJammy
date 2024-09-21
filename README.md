@@ -9,7 +9,7 @@ snap install nextcloud
 add domain
 
 ```
-nano /var/snap/nextcloud/current/nextcloud/config/config.php
+sudo nano /var/snap/nextcloud/current/nextcloud/config/config.php
 ```
 
 # 2. NextcloudJammy Apache2
